@@ -1,4 +1,5 @@
 CREATE DATABASE ShopDB;
+USE ShopDB;
 CREATE TABLE IF NOT EXISTS Products (
     ID int auto_increment,
     Name varchar(50),
